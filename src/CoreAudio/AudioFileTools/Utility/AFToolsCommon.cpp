@@ -217,7 +217,7 @@ void	PrintAudioFileTypesAndFormats(FILE *outfile)
 					}
 					AudioStreamBasicDescription *asbd = &dfi->mVariants[k];
 					if (asbd->mFormatFlags & ~(kAudioFormatFlagIsPacked | kAudioFormatFlagIsSignedInteger | kAudioFormatFlagIsBigEndian | kAudioFormatFlagIsFloat))
-						fprintf(outfile, "(%08lx/%ld) ", asbd->mFormatFlags, asbd->mBitsPerChannel);
+						fprintf(outfile, "(%08lx/%ld) ", (unsigned int) asbd->mFormatFlags, (unsigned int) asbd->mBitsPerChannel);
 					else {
 						fprintf(outfile, "%s",
 							(asbd->mFormatFlags & kAudioFormatFlagIsBigEndian) ? "BE" : "LE");
@@ -226,7 +226,7 @@ void	PrintAudioFileTypesAndFormats(FILE *outfile)
 						else
 							fprintf(outfile, "%sI",
 								(asbd->mFormatFlags & kAudioFormatFlagIsSignedInteger) ? "" : "U");
-						fprintf(outfile, "%ld ", asbd->mBitsPerChannel);
+						fprintf(outfile, "%ld ", (unsigned int) asbd->mBitsPerChannel);
 					}
 				}
 			} else {
