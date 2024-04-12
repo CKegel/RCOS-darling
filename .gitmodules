@@ -9,7 +9,7 @@
 	url = https://github.com/darlinghq/darling-libcxxabi.git
 [submodule "src/external/libkqueue"]
 	path = src/external/libkqueue
-	url = https://github.com/darlinghq/darling-libkqueue.git
+  url = https://github.com/luchsj/RCOS-darling-libkqueue.git
 [submodule "src/external/zlib"]
 	path = src/external/zlib
 	url = https://github.com/darlinghq/darling-zlib.git
@@ -27,7 +27,7 @@
 	url = https://github.com/darlinghq/darling-foundation.git
 [submodule "src/external/corefoundation"]
 	path = src/external/corefoundation
-	url = https://github.com/darlinghq/darling-corefoundation.git
+	url = https://github.com/CKegel/RCOS-darling-corefoundation.git
 [submodule "src/external/icu"]
 	path = src/external/icu
 	url = https://github.com/darlinghq/darling-icu.git
@@ -183,7 +183,7 @@
 	url = https://github.com/darlinghq/darling-syslog.git
 [submodule "src/external/libclosure"]
 	path = src/external/libclosure
-	url = https://github.com/darlinghq/darling-libclosure.git
+	url = https://github.com/luchsj/RCOS-darling-libclosure.git
 [submodule "src/external/configd"]
 	path = src/external/configd
 	url = https://github.com/darlinghq/darling-configd.git
@@ -234,7 +234,7 @@
 	url = https://github.com/darlinghq/darling-Heimdal.git
 [submodule "src/external/cocotron"]
 	path = src/external/cocotron
-	url = https://github.com/darlinghq/darling-cocotron.git
+	url = https://github.com/CKegel/RCOS-cocotron.git
 [submodule "src/external/libtelnet"]
 	path = src/external/libtelnet
 	url = https://github.com/darlinghq/darling-libtelnet.git
@@ -374,7 +374,7 @@
 	url = https://github.com/darlinghq/darling-pyobjc.git
 [submodule "src/external/darlingserver"]
 	path = src/external/darlingserver
-	url = https://github.com/darlinghq/darlingserver.git
+	url = https://github.com/luchsj/RCOS-darlingserver.git
 [submodule "src/external/libmalloc"]
 	path = src/external/libmalloc
 	url = https://github.com/darlinghq/darling-libmalloc.git
@@ -449,4 +449,4 @@
 	url = https://github.com/darlinghq/darling-metal.git
 [submodule "src/external/xnu"]
 	path = src/external/xnu
-	url = https://github.com/darlinghq/darling-xnu.git
+	url = https://github.com/luchsj/RCOS-darling-xnu.git
